@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Personal Homepage</title>
+  <meta name="description" content="Moje portfolio">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  
+</head>
+
+<body>
+  <section class="about-me">
+    <img class="about-me__image" src="images/zdjecie.jpg" alt="">
+    <header>
+      <div class="about-me__button">
+        <span class="about-me__span">tryb nocny</span>
+        <button aria-label="Przełącznik trybu nocnego">
+          <div class="icon"></div>
+        </button>
+      </div>
+      <div>
+        <h2>Sławomir Kopyto</h2>
+        <p>
+          Jestem aspirującym, pomysłowym i zaangażowanym programistą Frond End Developer. Swoją przygodę z
+          programowaniem rozpocząłem niecały rok
+          temu i chciałbym się rozwijać w dalszym ciągu w tym kierunku. Aktualnie poszukuję pracy, w której będę mógł
+          zarówno wykorzystać swoją dotychczasową wiedzę jak i zdobywać nowe umiejętności w doświadczonym zespole.
+          Oferuje swoje zaangażowanie i świetną organizację pracy.
+          <br><span class="about-me__description">Słowa charakteryzujące mój styl pracy:</span> dokładność,
+          zorientowanie na cel, rzetelność, kreatywność,
+          otwartość, skrupulatność, punktualność
+        </p>
+      </div>
+
+      <div class="about-me__info">
+        <div class="about-me__info-item">
+          <img src="images/email.png" alt="E-mail" class="about-me__info-icon">
+          <a href="mailto:slawomirkopyto@gmail.com" class="about-me__info-link">slawomirkopyto@gmail.com</a>
+        </div>
+        <div class="about-me__info-item">
+          <img src="images/phone.png" alt="Telefon" class="about-me__info-icon">
+          <a href="tel:602 329 256" class="about-me__info-link">602 329 256</a>
+        </div>
+        <div class="about-me__info-item">
+          <img src="images/adres.png" alt="Miejsce zamieszkania" class="about-me__info-icon">
+          <a href="https://www.google.com/maps/search/link+google+maps+stalowa+wola/@50.5668757,21.9269978,11.74z?hl=pl"
+            target="blank" class="about-me__info-link">Stalowa Wola</a>
+        </div>
+      </div>
+    </header>
+  </section>
+  <section class="abilities">
+    <h3>Moje umiejętności</h3>
+    <ul>
+      <li>HTML</li>
+      <li>CSS Grid</li>
+      <li>CSS Flexbox</li>
+      <li>CSS BEM</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Git</li>
+      <li>Praca z API (fetch, axios)</li>
+    </ul>
+  </section>
+  <section class="abilities">
+    <h3>Czego chciałbym się nauczyć</h3>
+    <ul>
+      <li>Node js.</li>
+      <li>Redux</li>
+      <li>TypeScrit</li>
+      <li>jQuery</li>
+    </ul>
+  </section>
+  <section class="abilities">
+    <h3>Moje miękkie umiejętności</h3>
+    <ul>
+      <li>Doskonałe umiejętności analityczne</li>
+      <li>Świetna organizacja pracy</li>
+      <li>Umiejętność definiowania i rozwiązywania problemów</li>
+      <li>Znajomość języka angielskiego na poziomie B1</li>
+      <li>Planowanie zadań i ich etapowanie</li>
+      <li>Doskonałe umiejętności komunikacyjne</li>
+      <li>Znajomość pakietu Microsoft Office</li>
+    </ul>
+  </section>
+
+  <section class="portfolio">
+    <h2>Portfolio</h2>
+    <p class="portfolio__description">Moje projekty</p>
+  </section>
+  <section class="project">
+    <div class="project__box">
+      <h4>Restauracja</h4>
+      <p class="project__box-description">Ten projekt jest moim pierwszym projektem. Przedstawia stronę przykładowej restauracji. Tworząc projekt w
+        większości używałem HTMLa i CSSa. W projekcie znajdziemy również kilka pseudo class : hover, czy to w nawigacji
+        czy też sekcjach menu, galeria i baner główny.
+      <p>Demo: <a href="https://slawomirkopyto.github.io/restaurant/" target="blank"  class="project__box-link">Restauracja</p></a>
+    </div>
+    <div class="project__box">
+      <h4>Lista zadań</h4>
+      <p class="project__box-description">Centrowanie obrazka (pudełka) względem wysokości i szerokości strony / kontenera — Czyli jak wyśrodkować
+        obrazek w pionie i poziomie względem kontenera.</p>
+        <p>Demo: <a href="" target="blank"  class="project__box-link">Lista zadań</p></a>
+    </div>
+    <div class="project__box">
+      <h4>Kalkulator walut</h4>
+      <p class="project__box-description"></p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <a href="mailto:slawomirkopyto@gmail.com" target="blank" class="footer__link">
+      <img src="images/email1.png" alt="E-mail" class="social-icon">
+      &nbsp;slawomirkopyto@gmail.com
+    </a>
+    <a href="https://www.linkedin.com/in/s%C5%82awomir-kopyto-69262291/" target="blank" class="footer__link">
+      <img src="images/linkedin.png" alt="Linkedin" class="social-icon">
+      &nbsp;Linkedin
+    </a>
+    <a href="https://facebook.com" target="blank" class="footer__link">
+      <img src="images/facebook.png" alt="Facebook" class="social-icon">
+      &nbsp;Facebook
+    </a>
+  </footer>
+
+</body>
+</html>
